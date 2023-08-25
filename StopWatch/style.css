@@ -1,0 +1,69 @@
+body {
+  /* background-color: black; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to left, rgb(223, 7, 43), rgb(248, 0, 211));
+}
+.heading {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+#watchContainer {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border: 2px solid white;
+  background-color: #167076;
+  border-radius: 20px;
+  border-radius: 50%;
+}
+#time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  font-size: 50px;
+  height: 100px;
+}
+.semiColon {
+  font-size: 60px;
+}
+#options {
+  color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.btn {
+  color: black;
+  border: none;
+  font-size: 30px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #167076;
+}
+.btn > i {
+  color: rgb(0, 0, 0);
+}
+#reset:hover {
+  transform: scale(1.5);
+  transition: ease-in-out 0.3s;
+}
+#stop:hover {
+  transform: scale(1.5);
+  transition: ease-in-out 0.3s;
+}
+#play :hover {
+  color: rgb(220, 60, 16);
+  transform: scale(1.2);
+  transition: ease-in-out 0.3s;
+}
+#play {
+  font-size: 60px;
+}
