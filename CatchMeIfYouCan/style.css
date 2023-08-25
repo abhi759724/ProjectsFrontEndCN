@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  position: absolute;
+  transition: ease-in 0.1s;
+}
+h4 {
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+.toDo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+}
+#add {
+  border: 0.5px solid gray;
+  border-radius: 3px;
+  width: initial;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+#total-tasks {
+  display: inline-block;
+  color: #757575;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+
+  margin-top: -18px;
+}
+#list li {
+  margin: 5px 0px 5px 0px;
+  margin-left: -38px;
+  height: 30px;
+}
+
+#list input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0px;
+  /* display: none; */
+  cursor: pointer; /* On mouse-over */
+}
+ul li {
+  padding: 10px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: inherit;
+  align-items: center;
+}
+#list li .delete {
+  display: flex;
+  width: initial;
+
+  cursor: pointer; /* On mouse-over */
+}
